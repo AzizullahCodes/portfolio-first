@@ -150,9 +150,10 @@ font-size: 15px;
 }
 
 @media (max-width: 500px){
-  .CssProjects{
-    padding-top: 20px;
-    padding-bottom: 40px;
+  .cssProjects{
+   
+    margin-left: -20px;
+    margin-right: -20px;
   }
 
   .cssProjects .one{
