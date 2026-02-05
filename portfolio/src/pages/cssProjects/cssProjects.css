@@ -152,8 +152,7 @@ font-size: 15px;
 @media (max-width: 500px){
   .cssProjects{
    
-    margin-left: -20px;
-    margin-right: -20px;
+    
   }
 
   .cssProjects .one{
@@ -174,6 +173,9 @@ font-size: 12px;
 }
 .cssProjects .secondRow .card p{
   font-size: 10px;
+}
+.cssProjects .secondRow {
+  margin-top: -40px;
 }
 
 }
