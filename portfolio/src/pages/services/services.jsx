@@ -1,7 +1,7 @@
 
 
 import React from "react";
-import "../cssFiles/services.css";
+import './services.css'
 import { FaCode, FaObjectGroup, FaTools } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { GrReactjs } from "react-icons/gr";

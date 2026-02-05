@@ -1,13 +1,13 @@
 
 
 import React from "react";
-import "../cssFiles/cssProjects.css";
-import projectOne from '../cssImages/projectOne.png';
-import projectTwo from '../cssImages/projectTwo.png';
-import projectThree from '../cssImages/projectThree.png';
-import projectFour from '../cssImages/projectFour.png';
-import projectFive from '../cssImages/projectFive.png';
-import projectSix from '../cssImages/projectSix.png';
+import './cssProjects.css'
+import projectOne from '../../assets/images/cssImages/projectOne.png';
+import projectTwo from '../../assets/images/cssImages/projectTwo.png';
+import projectThree from '../../assets/images/cssImages/projectThree.png';
+import projectFour from '../../assets/images/cssImages/projectFour.png';
+import projectFive from '../../assets/images/cssImages/projectFive.png';
+import projectSix from '../../assets/images/cssImages/projectSix.png';
 import projectSeven from '../cssImages/projectSeven.png';
 import projectEight from '../cssImages/projectEight.png';
 import projectNine from '../cssImages/projectNine.png';

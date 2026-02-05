@@ -1,5 +1,6 @@
 // contact.jsx
 import React from "react";
+import './contact.css'
 const Contact = ()=>{
     return(
         <>
@@ -7,4 +8,4 @@ const Contact = ()=>{
         </>
     )
 }
-export default Contact;
+export default Contact; 

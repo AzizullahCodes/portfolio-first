@@ -2,7 +2,7 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import myimage from '../../assets//profileImages/myimage.png';
-import '../cssFiles/home.css'
+import './home.css'
 const Home = ()=>{
     return(
        <section className="home">

@@ -1,12 +1,12 @@
 // routes.jsx
 import React from "react";
-import Home from "../pages/home";
-import About from "../pages/about";
-import Services from "../pages/sevices";
-import CssProjects from "../pages/cssProjects";
-import JsTasks from "../pages/jsTasks";
-import CodingExercises from "../pages/codingExercises";
-import Contact from "../pages/contact";
+import Home from "../pages/home/home";
+import About from "../pages/about/about";
+import Services from "../pages/services/services";
+import CssProjects from "../pages/cssProjects/cssProjects";
+import JsTasks from "../pages/jsProjects/jsProjects";
+import CodingExercises from "../pages/jsAssignments/jsPractice";
+import Contact from "../pages/contact/contact";
 import {Routes,Route} from 'react-router-dom';
 const MyRoutes = ()=>{
     return(
@@ -15,8 +15,8 @@ const MyRoutes = ()=>{
             <Route path="/about" element={<About/>}/>
             <Route path="/services" element={<Services/>}/>
             <Route path="/cssProjects" element={<CssProjects/>}/>
-            <Route path="/jsTasks" element={<JsTasks/>}/>
-            <Route path="/codingExercises" element={<CodingExercises/>}/>
+            <Route path="/jsProjects" element={<JsTasks/>}/>
+            <Route path="/jsPractice" element={<CodingExercises/>}/>
             <Route path="/contact" element={<Contact/>}/>
             
 

@@ -1,12 +1,16 @@
 
 import './App.css'
+import MyNavbar from './components/navbar/navbar'
+import MyRoutes from './utils/routes'
+import { BrowserRouter } from 'react-router-dom'
 
 function App() {
  
   return (
-    <>
-      <h1>app file</h1>
-    </>
+   <BrowserRouter>
+   <MyNavbar/>
+   <MyRoutes/>
+   </BrowserRouter>
   )
 }
 

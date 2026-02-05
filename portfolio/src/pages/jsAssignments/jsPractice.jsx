@@ -1,5 +1,6 @@
 // codingexercises.jsx
 import React from "react";
+import './jsPractice.css'
 const CodingExercises = ()=>{
     return(
         <>

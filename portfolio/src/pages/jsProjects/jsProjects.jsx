@@ -1,5 +1,6 @@
 // JsTasks.jsx
 import React from "react";
+import './jsProjects.css'
 const JsTasks = ()=>{
     return(
         <>

@@ -1,6 +1,6 @@
 // about.jsx
 import React from "react";
-import '../cssFiles/about.css';
+import './about.css'
 import myimage from '../../assets//profileImages/myimage.png';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 const About = ()=>{
