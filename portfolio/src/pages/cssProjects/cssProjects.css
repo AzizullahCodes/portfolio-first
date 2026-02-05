@@ -94,9 +94,9 @@ body{
 .cssProjects .one{
     padding: 6px 30px;
 
-  background: transparent;      /* no background */
-  border: 2px solid black;      /* black border */
-  color: black;                 /* black text */
+  background: transparent;      
+  border: 2px solid black;      
+  color: black;                
 font-size: 15px;
   border-radius: 10px;
   cursor: pointer;
@@ -107,9 +107,9 @@ font-size: 15px;
 .cssProjects .two{
     padding: 6px 18px;
 
-  background: transparent;      /* no background */
-  border: 2px solid black;      /* black border */
-  color: black;                 /* black text */
+  background: transparent;      
+  border: 2px solid black;      
+  color: black;                 
 font-size: 15px;
   border-radius: 10px;
   cursor: pointer;
@@ -147,6 +147,7 @@ font-size: 15px;
 @media (max-width: 768px){
  .cssProjects .secondRow{
     grid-template-columns:100%;
+    
   }
 }
 
@@ -155,6 +156,33 @@ font-size: 15px;
     padding-top: 20px;
     padding-bottom: 40px;
   }
+
+  .cssProjects .one{
+    padding: 6px 14px;
+
+  background: transparent;      
+  border: 2px solid black;      
+  color: black;                
+font-size: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.cssProjects .two{
+    padding: 6px 8px;
+
+  background: transparent;      
+  border: 2px solid black;      
+  color: black;                 
+font-size: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
 }
 
 
