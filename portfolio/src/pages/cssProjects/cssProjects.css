@@ -16,7 +16,7 @@ body{
   background: #101a20;
   padding-bottom: 60px;
 }
- .cssProjects .cssContainer{ max-width: 90%;
+ .cssProjects .cssContainer{ max-width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
