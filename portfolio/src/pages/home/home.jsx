@@ -1,7 +1,7 @@
 // home.jsx
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
-import myimage from '../../assets//profileImages/myimage.png';
+import myimage from '../../assets/images/profileImages/myimage.png';
 import './home.css'
 const Home = ()=>{
     return(
