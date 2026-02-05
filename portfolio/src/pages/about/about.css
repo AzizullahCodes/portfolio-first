@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+/* ===== HOME ===== */
+.about{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+ background: #101a20;
+  /* background: linear-gradient(to right, #414345, #232526); */
+}
+/* ====== firstRow========= */
+.firstRow{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.firstRow h1{
+  color: #dee2e6;
+  font-size: 50px;
+  text-align: center;
+}
+
+.firstRow p{
+    /* border: 2px solid black; */
+    max-width: 600px;
+    margin: auto;
+    padding: 0 20px;
+  color: #dee2e6;
+  text-align: justify;
+  text-align-last: center;
+  font-size: 18px;
+}
+/* ===== secondRow ===== */
+.secondRow{
+  max-width: 83%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.secondRow .home-left p{
+    text-align: justify;
+    text-align-last: center;
+}
+/* ===== LEFT & RIGHT ===== */
+.home-left,
+.home-right{
+  flex: 1 1 50%;
+}
+
+/* remove max-width & margin:auto (they break flex-wrap) */
+
+/* ===== RIGHT IMAGE ===== */
+.home-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-right img{
+  width: 100%;
+  max-width: 380px;   /* image control */
+  height: auto;
+  border-radius: 50%;
+}
+
+/* ===== TEXT ===== */
+.home-left h1{
+  color: #dee2e6;
+  font-size: 50px;
+}
+
+.home-left p{
+  color: #dee2e6;
+  font-size: 18px;
+}
+
+/* ===== BUTTONS ===== */
+.home-left button{
+  padding: 12px 24px;
+  background-color: black;
+  color: #dee2e6;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.home-left button:hover{
+  background: transparent;
+  border: 2px solid white;
+}
+
+.buttondiv{
+  display: flex;
+  gap: 20px;
+}
+/* ===== thirdRow==== */
+.thirdRow{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.thirdRow h1{
+  color: #dee2e6;
+  font-size: 50px;
+  text-align: center;
+}
+
+.thirdRow p{
+    /* border: 2px solid black; */
+    max-width: 600px;
+    margin: auto;
+    padding: 0px 20px;
+  color: #dee2e6;
+  font-size: 18px;
+  text-align: justify;
+  text-align-last: center;
+}
+/* ===== fourthRow ===== */
+.fourthRow{
+    display: grid;
+    max-width: 1080px;
+   justify-content: center;
+    margin: auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.fourthRow .card{
+   
+    background-color:#141f26;
+    color: #dee2e6;
+    font-size: 14px;
+}
+
+
+/* ===== MOBILE ===== */
+@media (max-width: 800px){
+  .home-left,
+  .home-right{
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .buttondiv,
+  .home-icon{
+    justify-content: center;
+  }
+
+  .home-left h1{
+    font-size: 36px;
+  }
+}
+
+@media(max-width:800px){
+  .secondRow{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+  }
+}
+@media(max-width:500px){
+  .buttondiv{
+  display: flex;
+  flex-direction: column;
+}
+.secondRow{display: flex;
+flex-direction: column;
+gap:60px;}
+}
+
+@media(max-width:1000px){.fourthRow{
+    grid-template-columns:33% 33% 33%;
+}}
+
+@media(max-width:768px){.fourthRow{
+    grid-template-columns:50% 50% ;
+}}
+@media(max-width:500px){.fourthRow{
+    grid-template-columns:100%;
+}
+.about{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}}

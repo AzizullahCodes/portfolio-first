@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+/* ===== HOME ===== */
+.home{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* background: linear-gradient(to right, #414345, #232526); */
+  background: #101a20;
+}
+
+/* ===== CONTAINER ===== */
+.homeContainer{
+  max-width: 83%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* ===== LEFT & RIGHT ===== */
+.home-left,
+.home-right{
+  flex: 1 1 50%;
+}
+.home-left p{
+  text-align: justify;
+  text-align-last: center;
+  font-size: 18px;
+}
+
+/* remove max-width & margin:auto (they break flex-wrap) */
+
+/* ===== RIGHT IMAGE ===== */
+.home-right{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-right img{
+  width: 100%;
+  max-width: 380px;   /* image control */
+  height: auto;
+  border-radius: 50%;
+}
+
+/* ===== TEXT ===== */
+.home-left h1{
+  color: #dee2e6;
+  font-size: 50px;
+}
+
+.home-left p{
+  color: #dee2e6;
+  font-size: 18px;
+}
+
+/* ===== BUTTONS ===== */
+.home-left button{
+  padding: 12px 24px;
+  background-color: black;
+  color: #dee2e6;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.home-left button:hover{
+  background: transparent;
+  border: 2px solid white;
+}
+
+.buttondiv{
+  display: flex;
+  gap: 20px;
+}
+
+/* ===== ICONS ===== */
+.home-icon{
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.icon{
+  font-size: 40px;
+  color: #dee2e6;
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 800px){
+  .home-left,
+  .home-right{
+    flex: 1 1 100%;
+    text-align: center;
+  }
+
+  .buttondiv,
+  .home-icon{
+    justify-content: center;
+  }
+
+  .home-left h1{
+    font-size: 36px;
+  }
+}
+
+@media(max-width:800px){
+  .homeContainer{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+  }
+}
+@media(max-width:500px){
+  .buttondiv{
+  display: flex;
+  flex-direction: column;
+}
+.homeContainer{display: flex;
+flex-direction: column;
+gap:60px;}
+.home{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+}
