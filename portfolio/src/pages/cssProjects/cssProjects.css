@@ -167,12 +167,12 @@ font-size: 12px;
 }
 
 .cssProjects .secondRow .card{
-  padding: 5px 20px;
-  padding-bottom:-10px;
+  padding-top: 5px;
+  padding-bottom:0px;
   gap: 12px;
 }
 .cssProjects .secondRow .card p{
-  font-size: 14px;
+  font-size: 12px;
 }
 
 }
