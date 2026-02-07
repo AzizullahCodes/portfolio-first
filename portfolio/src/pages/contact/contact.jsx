@@ -54,25 +54,25 @@ Korange Creek, Karachi</p></div>
          <div className="rightCol">
             <h1>Get In Touch</h1>
            
-                <div class="form-outline" data-mdb-input-init>
-  <input type="text" id="typeText" class="form-control" />
-  <label class="form-label" for="typeText">Text input</label>
+                <div className="form-outline" data-mdb-input-init>
+  <input type="text" id="typeText" className="form-control" />
+  <label className="form-label" for="typeText">Text input</label>
 </div>
            
             
-           <div class="form-outline" data-mdb-input-init>
-  <input type="text" id="typeText" class="form-control" />
-  <label class="form-label" for="typeText">Text input</label>
+           <div className="form-outline" data-mdb-input-init>
+  <input type="text" id="typeText" className="form-control" />
+  <label className="form-label" for="typeText">Text input</label>
 </div>
 
-<div class="form-outline" data-mdb-input-init>
-  <input type="text" id="typeText" class="form-control" />
-  <label class="form-label" for="typeText">Text input</label>
+<div className="form-outline" data-mdb-input-init>
+  <input type="text" id="typeText" className="form-control" />
+  <label className="form-label" for="typeText">Text input</label>
 </div>
 
-<div class="form-outline" data-mdb-input-init>
-  <textarea class="form-control" id="textAreaExample" rows="4"></textarea>
-  <label class="form-label" for="textAreaExample">Message</label>
+<div className="form-outline" data-mdb-input-init>
+  <textarea className="form-control" id="textAreaExample" rows="4"></textarea>
+  <label className="form-label" for="textAreaExample">Message</label>
 </div>
 
               <Button variant="secondary">Secondary</Button>
