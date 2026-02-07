@@ -3,19 +3,21 @@
 
 import React from "react";
 import './jsProjects.css'
-import projectOne from '../../assets/images/cssImages/projectOne.PNG';
-import projectTwo from '../../assets/images/cssImages/projectTwo.png';
-import projectThree from '../../assets/images/cssImages/projectThree.png';
-import projectFour from '../../assets/images/cssImages/projectFour.png';
-import projectFive from '../../assets/images/cssImages/projectFive.png';
-import projectSix from '../../assets/images/cssImages/projectSix.png';
-import projectSeven from '../../assets/images/cssImages/projectSeven.png';
-import projectEight from '../../assets/images/cssImages/projectEight.png';
-import projectNine from '../../assets/images/cssImages/projectNine.png';
-import projectTen from '../../assets/images/cssImages/projectTen.PNG';
-import projectEleven from '../../assets/images/cssImages/projectEleven.PNG';
-import projectTwelve from '../../assets/images/cssImages/projectTwelve.PNG';
-import projectThirteen from '../../assets/images/cssImages/projectThirteen.PNG';
+import letterCounter from '../../assets/images/javascriptImages/letterCounter.PNG';
+import bulbOnOff from '../../assets/images/javascriptImages/bulbOnOff.PNG';
+import swappingImages from '../../assets/images/javascriptImages/swappingImages.PNG';
+import hashtagGenerator from '../../assets/images/javascriptImages/hashtagGenerator.PNG';
+import palindromeChecker from '../../assets/images/javascriptImages/palindromeChecker.PNG';
+import autoBackgroundColorChanger from '../../assets/images/javascriptImages/autoBackgroundColorChanger.PNG';
+import autoImageSlider from '../../assets/images/javascriptImages/autoImageSlider.PNG';
+import cnicMasker from '../../assets/images/javascriptImages/cnicMasker.PNG';
+import simpleImageSlider from '../../assets/images/javascriptImages/simpleImageSlider.PNG';
+import multiplestylechanger from '../../assets/images/javascriptImages/multiplestylechanger.PNG';
+import vowelConsonantSeperator from '../../assets/images/javascriptImages/vowelConsonantSeperator.PNG';
+import miniBankingSystem from '../../assets/images/javascriptImages/miniBankingSystem.PNG';
+import urlGenerator from '../../assets/images/javascriptImages/urlGenerator.PNG';
+import jsSignup from '../../assets/images/javascriptImages/jsSignup.PNG';
+
 
 import Button from 'react-bootstrap/Button';
 
@@ -26,9 +28,15 @@ const JsTasks = () => {
       
         {/* ====== firstRow ====== */}
         <div className="firstRow">
-          <h1>My CSS Projects</h1>
+          <h1>My JavaScript Small-Projects</h1>
           <p>
-            This section showcases my CSS-based projects where I focused on creating visually appealing and responsive layouts. These projects highlight my skills in styling with Flexbox, Grid, media queries, transitions, and animations. Each project is designed to improve user experience and aesthetics, with a live preview and GitHub link available for every build.
+            This section is a showcase of 40+ 
+      small to medium JavaScript projects I’ve built while practicing and 
+      exploring core web development concepts. Each project focuses on solving 
+      a specific problem or adding interactivity to the web — from text 
+      manipulation tools and calculators to sliders, quizzes, and dynamic 
+      UI features. Together, they reflect my journey of learning by building,
+       improving logic, and applying JavaScript in real-world scenarios.
           </p>
         </div>
 
@@ -37,10 +45,10 @@ const JsTasks = () => {
             {/* ======= project-01 ====== */}
       <div className="card">
         <p>Project-01 screenshot, live & github link</p>
-        <img src={projectOne} alt="figma-img" />
+        <img src={letterCounter} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://amazon-clone-website-brown.vercel.app" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/amazon-clone-website" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-tasks-mauve.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTasks/tree/main/letterCounter" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -48,10 +56,10 @@ const JsTasks = () => {
        {/* ======= project-02 ====== */}
       <div className="card">
         <p>Project-02 screenshot, live & github link</p>
-        <img src={projectTwo} alt="figma-img" />
+        <img src={bulbOnOff} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://furniture-web-lac.vercel.app" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/furniture-web.git" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-tasks-3lxt.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTasks/tree/main/bulbOnOff" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -59,10 +67,10 @@ const JsTasks = () => {
        {/* ======= project-03 ====== */}
       <div className="card">
         <p>Project-03 screenshot, live & github link</p>
-        <img src={projectThree} alt="figma-img" />
+        <img src={swappingImages} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://e-commerce-web-two-nu.vercel.app" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/E-commerce-web.git" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-tasks-341l.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTasks/tree/main/swappingImages" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -70,10 +78,10 @@ const JsTasks = () => {
        {/* ======= project-04 ====== */}
       <div className="card">
         <p>Project-04 screenshot, live & github link</p>
-        <img src={projectFour} alt="figma-img" />
+        <img src={hashtagGenerator} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://figma-small-web-page.vercel.app" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/figma-small-web-page.git" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-tasks-65a8.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTasks/tree/main/hashtageGenerator" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -81,10 +89,10 @@ const JsTasks = () => {
        {/* ======= project-05 ====== */}
       <div className="card">
         <p>Project-05 screenshot, live & github link</p>
-        <img src={projectFive} alt="figma-img" />
+        <img src={palindromeChecker} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://figma-design-05.vercel.app" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/figma-design-05.git" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-tasks-sg4s.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTasks/tree/main/palindromeChecker" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -92,10 +100,10 @@ const JsTasks = () => {
        {/* ======= project-06 ====== */}
       <div className="card">
         <p>Project-06 screenshot, live & github link</p>
-        <img src={projectSix} alt="figma-img" />
+        <img src={autoBackgroundColorChanger} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://small-figma-to-coding.vercel.app" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/small-figma-to-coding.git" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-tasks-da1h.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTasks/tree/main/autoBackgroundColorChanger" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -103,10 +111,10 @@ const JsTasks = () => {
        {/* ======= project-07 ====== */}
       <div className="card">
         <p>Project-07 screenshot, live & github link</p>
-        <img src={projectSeven} alt="figma-img" />
+        <img src={autoImageSlider} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://school-website-nine-neon.vercel.app" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/School-website.git" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-tasks-y8ft.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTasks/tree/main/autoSlider" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -114,10 +122,10 @@ const JsTasks = () => {
        {/* ======= project-08 ====== */}
       <div className="card">
         <p>Project-08 screenshot, live & github link</p>
-        <img src={projectEight} alt="figma-img" />
+        <img src={simpleImageSlider} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://mountain-xi-murex.vercel.app" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/Mountain.git" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-tasks-s9ng.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTasks/tree/main/simpleImageSlider" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -125,10 +133,10 @@ const JsTasks = () => {
        {/* ======= project-09 ====== */}
       <div className="card">
         <p>Project-09 screenshot, live & github link</p>
-        <img src={projectNine} alt="figma-img" />
+        <img src={multiplestylechanger} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://mumtaz-sea-show-piece-online-store.vercel.app/" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/Mumtaz-sea-show-piece-online-store.git" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-tasks-pc8l.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTasks/tree/main/multipleStyleChanger" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -136,10 +144,10 @@ const JsTasks = () => {
        {/* ======= project-10 ====== */}
       <div className="card">
         <p>Project-10 screenshot, live & github link</p>
-        <img src={projectTen} alt="figma-img" />
+        <img src={vowelConsonantSeperator} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://web-02-eight.vercel.app" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/web-02" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-task-two.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTaskTwo/tree/main/vowelConsonatExtractor" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -147,10 +155,10 @@ const JsTasks = () => {
        {/* ======= project-11 ====== */}
       <div className="card">
         <p>Project-11 screenshot, live & github link</p>
-        <img src={projectEleven} alt="figma-img" />
+        <img src={miniBankingSystem} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://figma-mu-lemon.vercel.app" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/figma.git" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-task-two-i58z.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTaskTwo/tree/main/miniBankingSystem" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -158,10 +166,10 @@ const JsTasks = () => {
        {/* ======= project-12 ====== */}
       <div className="card">
         <p>Project-12 screenshot, live & github link</p>
-        <img src={projectTwelve} alt="figma-img" />
+        <img src={urlGenerator} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://azizullahcodes.github.io/practice-web/" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/practice-web.git" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-task-two-qbmn.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTaskTwo/tree/main/urlGenerator" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -169,10 +177,10 @@ const JsTasks = () => {
        {/* ======= project-13 ====== */}
       <div className="card">
         <p>Project-13 screenshot, live & github link</p>
-        <img src={projectThirteen} alt="figma-img" />
+        <img src={jsSignup} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://my-css-projects.github.io/finalfigma/" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/My-css-projects/finalfigma.git" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-task-two-6efe.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTaskTwo/tree/main/signupLogin" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
@@ -180,10 +188,10 @@ const JsTasks = () => {
        {/* ======= project-14 ====== */}
       <div className="card">
         <p>Project-14 screenshot, live & github link</p>
-        <img src={projectTwelve} alt="figma-img" />
+        <img src={cnicMasker} alt="figma-img" />
         <div>
-            <button className="one"><a href="https://azizullahcodes.github.io/practice-web/" target="_blank"> View Live</a></button>
-            <button className="two"><a href="https://github.com/AzizullahCodes/practice-web.git" target="_blank" >Github Link</a></button> 
+            <button className="one"><a href="https://javascript-tasks-voee.vercel.app/" target="_blank"> View Live</a></button>
+            <button className="two"><a href="https://github.com/AzizullahCodes/javascriptTasks/tree/main/nicMasker" target="_blank" >Github Link</a></button> 
               
         </div> 
       </div>
