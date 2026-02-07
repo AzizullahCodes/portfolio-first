@@ -41,7 +41,7 @@ body{
 /* ===== contactSecondRow ===== */
 .contactSecondRow{
   display: grid;
-  max-width: 1080px;
+  max-width: 1480px;
   /* margin: auto; */
   grid-template-columns: 40% 60%;
   gap: 20px;
@@ -50,10 +50,11 @@ body{
 
 .contact .leftCol{
     border:2px solid white;
+    width: 100%;
     border-radius: 10px;
     color: white;
     background:#141f26;
-    padding: 20px 20px;
+    padding: 20px;
 }
 
 .leftCol .firstDiv{
@@ -71,6 +72,7 @@ body{
 /* ==== .rightCol ==== */
 .contact .rightCol{
     border:2px solid white;
+    width: 100%;
     border-radius: 10px;
      background:#141f26;
      color:white;
