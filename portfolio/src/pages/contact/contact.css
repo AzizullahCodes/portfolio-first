@@ -50,12 +50,28 @@ body{
 
 .contact .leftCol{
     border:2px solid white;
+    border-radius: 10px;
     color: white;
     background:#141f26;
     padding: 20px 20px;
 }
+
+.leftCol .firstDiv{
+  display: flex;
+  gap: 30px;
+}
+
+.leftCol h3{
+  color: #dee2e6;
+  font-size: 25px;
+}
+
+.leftCol p{color: #dee2e6;
+  }
+/* ==== .rightCol ==== */
 .contact .rightCol{
     border:2px solid white;
+    border-radius: 10px;
      background:#141f26;
      color:white;
      padding: 20px;
@@ -82,6 +98,13 @@ body{
  }
 
  
+  .rightCol h2, .leftCol h2{
+  color: #dee2e6;
+  font-size: 35px;
+  padding-bottom: 20px;
+}
+ 
+ 
 /* Autofill background fix */
 .rightCol input:-webkit-autofill,
 .rightCol input:-webkit-autofill:hover,
@@ -103,7 +126,7 @@ body{
 .contact .rightCol button{
   padding: 12px 24px;
   /* background-color: black; */
-  background-color: #24333d ;
+  background-color: #24333d;
   color: #dee2e6;
   border-radius: 10px;
   cursor: pointer;

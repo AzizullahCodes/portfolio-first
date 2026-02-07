@@ -67,7 +67,8 @@ body{
 /* ===== BUTTONS ===== */
 .home-left button{
   padding: 12px 24px;
-  background-color: black;
+  /* background-color: black; */
+    background-color: #24333d !important;
   color: #dee2e6;
   border-radius: 10px;
   cursor: pointer;

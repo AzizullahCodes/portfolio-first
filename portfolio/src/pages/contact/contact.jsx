@@ -15,44 +15,41 @@ const Contact = () => {
 
         {/* ====== firstRow ====== */}
         <div className="firstRow">
-          <h1>Services</h1>
+          <h1>Contact</h1>
           <p>
-            I provide frontend web development"contact, building responsive,
-            user-friendly, and modern websites. My focus is on clean design,
-            mobile-first development, and interactive user experiences using
-            HTML, CSS, Bootstrap, and JavaScript.
+            📩 “I’d love to hear from you! Whether you have a question, a project idea, or just want to say hi — feel free to reach out.”
           </p>
         </div>
 
         {/* ====== secondRow ====== */}
         <div className="contactSecondRow">
          <div className="leftCol">
-            <h1>Contact Info</h1>
-            <div>
+            <h2>Contact Info</h2>
+            <div className="firstDiv">
                 {/* === location ==== */}
-                <span><MdLocationPin /></span>
-                <div><h2>My Location</h2>
-                <p>Water pump,Labor Colony, Street No 3, House No 143
+                <span><MdLocationPin style={{fontSize:'40px'}} /></span>
+                <div><h3>My Location</h3>
+                <p>Water pump,Labor Colony,
 
 Korange Creek, Karachi</p></div>
             </div>
 {/* === phone no ===== */}
- <div>
-                <span><FaPhoneVolume /></span>
-                <div><h2>Phone Number</h2>
+ <div className="firstDiv">
+                <span><FaPhoneVolume style={{fontSize:'40px'}}/></span>
+                <div><h3>Phone Number</h3>
                 <p>+92 334 7257178</p></div>
             </div>
             {/* === Email Address === */}
-             <div>
-                <span><MdOutlineMail /></span>
-                <div><h2>Email Address</h2>
+             <div className="firstDiv">
+                <span><MdOutlineMail style={{fontSize:'40px'}} /></span>
+                <div><h3>Email Address</h3>
                 <p>azizullahcodes@gmail.com</p></div>
             </div>
 
          </div>
          {/* ==== rightCol ==== */}
          <div className="rightCol">
-            <h1>Get In Touch</h1>
+            <h2>Get In Touch</h2>
            
                 <div className="form-outline" data-mdb-input-init>
   <input type="text" id="typeText" style={{color:'white'}} className="form-control" placeholder="Enter your name" />
