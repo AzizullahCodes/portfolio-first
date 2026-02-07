@@ -75,7 +75,7 @@ Korange Creek, Karachi</p></div>
   
 </div>
 
-              <div className="btndiv"><Button variant="secondary">Secondary</Button></div>
+              <div className="btndiv"><Button variant="secondary">Send Message</Button></div>
          </div>
           
         </div>
