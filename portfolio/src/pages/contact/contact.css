@@ -55,7 +55,7 @@ body{
 }
 
 .contact .leftCol{
-    border:2px solid white;
+    border:1px solid white;
     width: 100%;
     border-radius: 10px;
     color: white;
@@ -77,7 +77,7 @@ body{
   }
 /* ==== .rightCol ==== */
 .contact .rightCol{
-    border:2px solid white;
+    border:1px solid white;
     width: 100%;
     border-radius: 10px;
      background:#141f26;
@@ -162,6 +162,14 @@ body{
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.firstRow p{
+  padding: 0 20px;
+  color: #dee2e6;
+  font-size: 16px;
+  text-align: center;
+ 
 }
 }
 
