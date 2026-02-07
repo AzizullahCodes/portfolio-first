@@ -20,7 +20,7 @@ function MyNavbar() {
             <Nav.Link as={NavLink} to="/about">About</Nav.Link>
             <Nav.Link as={NavLink} to="/services">Services</Nav.Link>
             <Nav.Link as={NavLink} to="/cssProjects">Css-Projects</Nav.Link>
-            <Nav.Link as={NavLink} to="/jsTasks">JsTasks</Nav.Link>
+            <Nav.Link as={NavLink} to="/jsProjects">JsTasks</Nav.Link>
             <Nav.Link as={NavLink} to="/codingExercises">Coding-Exercises</Nav.Link>
             <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
           </Nav>
