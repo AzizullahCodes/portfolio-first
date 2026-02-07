@@ -55,27 +55,27 @@ Korange Creek, Karachi</p></div>
             <h1>Get In Touch</h1>
            
                 <div className="form-outline" data-mdb-input-init>
-  <input type="text" id="typeText" className="form-control" />
-  <label className="form-label" for="typeText">Text input</label>
+  <input type="text" id="typeText" style={{color:'white'}} className="form-control" placeholder="Enter your name" />
+  
 </div>
            
             
            <div className="form-outline" data-mdb-input-init>
-  <input type="text" id="typeText" className="form-control" />
-  <label className="form-label" for="typeText">Text input</label>
+  <input type="text" id="typeText" style={{marginTop:'10px',color:'white',background:'#24333d'}} className="form-control" placeholder="Enter your Email" />
+  
 </div>
 
 <div className="form-outline" data-mdb-input-init>
-  <input type="text" id="typeText" className="form-control" />
-  <label className="form-label" for="typeText">Text input</label>
+  <input type="text" id="typeText"  style={{marginTop:'10px',color:'white'}} className="form-control" placeholder="subject" />
+
 </div>
 
-<div className="form-outline" data-mdb-input-init>
-  <textarea className="form-control" id="textAreaExample" rows="4"></textarea>
-  <label className="form-label" for="textAreaExample">Message</label>
+<div className="form-outline" style={{marginTop:'30px',color:'white'}} data-mdb-input-init>
+  <textarea className="form-control" placeholder="Enter your message" id="textAreaExample" style={{color:'white'}} rows="4"></textarea>
+  
 </div>
 
-              <Button variant="secondary">Secondary</Button>
+              <div className="btndiv"><Button variant="secondary">Secondary</Button></div>
          </div>
           
         </div>

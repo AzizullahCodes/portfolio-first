@@ -59,17 +59,47 @@ body{
      background:#141f26;
      color:white;
      padding: 20px;
+    
 }
-.rightCol input{
-    background-color: #24333d;
+.rightCol .form-control{
+    background-color: #24333d !important;
+    
+}
+.rightCol input::placeholder{
+  color: white;
+}
+
+.rightCol .form-outline, .form-control::placeholder{
+  color:white;
+  font-size: 14px;
 }
 
  .form-outline .form-control {
     background-color:#24333d !important;
  }
- .rightCol input:focus {
-    background-color:#24333d;
+ .rightCol .form-control:focus {
+    background-color:#24333d !important;
  }
+
+ .contact .btndiv{
+  width: 100%;
+  border: 2px solid white;
+  text-align: center;
+  margin-top: 20px;
+ }
+/* Autofill background fix */
+.rightCol input:-webkit-autofill,
+.rightCol input:-webkit-autofill:hover,
+.rightCol input:-webkit-autofill:focus,
+.rightCol textarea:-webkit-autofill {
+  -webkit-text-fill-color: white !important;
+  -webkit-box-shadow: 0 0 0px 1000px #24333d inset !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+
+
+
 @media (max-width: 1080px){
   .contactSecondRow{
     grid-template-columns:100%;
