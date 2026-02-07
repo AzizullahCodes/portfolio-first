@@ -32,9 +32,8 @@ body{
   flex: 1 1 50%;
 }
 .home-left p{
-  text-align: justify;
-  text-align-last: center;
-  font-size: 18px;
+  text-align: center;
+  font-size: 16px;
 }
 
 /* remove max-width & margin:auto (they break flex-wrap) */
@@ -128,6 +127,8 @@ body{
   display: flex;
   flex-direction: column;
 }
+
+
 .homeContainer{display: flex;
 flex-direction: column;
 gap:60px;}
