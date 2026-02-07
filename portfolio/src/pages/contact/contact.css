@@ -153,10 +153,15 @@ body{
   flex-direction: column;
   gap: 10px;
 }
+.firstRow h1{
+  
+  font-size: 40px;
+  
+}
 .contactSecondRow .leftCol{
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
 }
 }
 
