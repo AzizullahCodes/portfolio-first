@@ -16,6 +16,10 @@ body{
   background: #101a20;
   padding-bottom: 60px;
 }
+.contactContainer{
+  width: 83%;
+  
+}
 
 /* ===== firstRow ===== */
 .firstRow{
@@ -27,10 +31,12 @@ body{
 .firstRow h1{
   color: #dee2e6;
   font-size: 50px;
+  
 }
 
 .firstRow p{
-  max-width: 600px;
+  max-width: 700px;
+  
   margin: 20px auto 0;
   padding: 0 20px;
   color: #dee2e6;
@@ -141,10 +147,21 @@ body{
   border: 2px solid white;
 }
 
+@media(max-width:500px){
+  .leftCol .firstDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.contactSecondRow .leftCol{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+}
 
 
-
-@media (max-width: 1080px){
+@media (max-width: 970px){
   .contactSecondRow{
     grid-template-columns:100%;
   }

@@ -11,13 +11,13 @@ import Button from 'react-bootstrap/Button';
 const Contact = () => {
   return (
     <section className="contact">
-      <div className="aboutContainer">
+      <div className="contactContainer">
 
         {/* ====== firstRow ====== */}
         <div className="firstRow">
           <h1>Contact</h1>
           <p>
-            📩 “I’d love to hear from you! Whether you have a question, a project idea, or just want to say hi — feel free to reach out.”
+            📩 Interested in working together? Whether you’re looking to collaborate, have a project to discuss, or simply want to connect, feel free to reach out. I’m always open to new opportunities and professional conversations.
           </p>
         </div>
 
