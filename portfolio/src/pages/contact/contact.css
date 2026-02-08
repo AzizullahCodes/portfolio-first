@@ -155,13 +155,22 @@ body{
 }
 .firstRow h1{
   
-  font-size: 40px;
+  font-size: 25px;
   
+}
+.firstRow p{
+  font-size: 14px;
 }
 .contactSecondRow .leftCol{
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+.contactSecondRow .leftCol h2, .contactSecondRow .rightCol h2{
+  font-size: 25px;
+}
+.contactSecondRow .leftCol h3, .contactSecondRow .rightCol h3{
+  font-size: 20px;
 }
 
 .firstRow p{
