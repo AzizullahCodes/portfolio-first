@@ -173,10 +173,10 @@ font-size: 12px;
 .cssProjects .secondRow {
   margin-top: -40px;
 }
-.cssProjects h1{
+.cssProjects .cssContainer .firstRow h1{
   font-size: 25px;
 }
-.cssProjects p{
+.cssProjects .cssContainer .firstRow p{
   font-size: 14px;
 }
 }

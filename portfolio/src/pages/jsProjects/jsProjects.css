@@ -156,10 +156,10 @@ font-size: 15px;
   color: black;                
 font-size: 12px;
 }
-.jsProjects h1{
+.jsProjects .jsContainer .firstRow h1{
   font-size: 25px;
 }
-.jsProjects p{
+.jsProjects .jsContainer .firstRow p{
   font-size: 14px;
 }
 
