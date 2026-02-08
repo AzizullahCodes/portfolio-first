@@ -196,6 +196,9 @@ gap:60px;}
 .secondRow .about-left h3, .about h1{
   font-size: 25px;
 }
+.about p{
+  font-size: 14px;
+}
 
 .about{
     padding-top: 20px;
