@@ -1,12 +1,13 @@
 // Navbar.jsx
 import Container from 'react-bootstrap/Container';
+import './navbar.css'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
 
 function MyNavbar() {
   return (
-    <Navbar bg="dark" data-bs-theme="dark" expand="lg">
+    <Navbar bg="dark" data-bs-theme="dark" expand="lg" fixed='top' id='navbar'>
       <Container> {/* Full width */}
         <Navbar.Brand as={NavLink} to="/">
           Portfolio
