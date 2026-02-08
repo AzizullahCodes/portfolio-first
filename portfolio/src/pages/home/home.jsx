@@ -18,16 +18,16 @@ Frontend Web Developer</h1>
     <button>Get In Touch</button>
 </div>
 <div className="home-icon">
- <a href="https://github.com/" target="_blank" rel="noreferrer">
+ <a href="https://github.com/azizullahcodes" target="_blank" rel="github">
               <FaGithub className="icon" />
             </a>
-            <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/azizullah-b8966835a" target="_blank" rel="linkdin">
               <FaLinkedin className="icon" />
             </a>
-            <a href="mailto:example@email.com">
+            <a href="mailto:azizullahcodes@gmail.com?subject=Let's%20Work%20Together&body=Hi%20Azizullah%2C%20I%20found%20your%20portfolio%20interesting." rel='emial'>
               <FaEnvelope className="icon" />
             </a>
-            <a href="https://wa.me/923000000000" target="_blank" rel="noreferrer">
+            <a href="https://wa.me/923347257178" target="_blank" rel="whatsapp">
               <FaWhatsapp className="icon" />
             </a>
 </div></div>
