@@ -1,4 +1,5 @@
 import React from 'react';
+import './footer.css'
 import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import {
   MDBFooter,
@@ -8,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <MDBFooter className='bg-dark text-center text-white'>
+    <MDBFooter className='bg-dark text-center text-white' id='footer'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
           <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
@@ -35,7 +36,7 @@ export default function Footer() {
         </section>
       </MDBContainer>
 
-      <div className='text-center pt-3 pb-5' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className='text-center pt-3 pb-5' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }} id='footer-last'>
        
         {/* <a className='text-white' href='https://mdbootstrap.com/'> */}
          © 2025 by Azizullah Frontend Developer
