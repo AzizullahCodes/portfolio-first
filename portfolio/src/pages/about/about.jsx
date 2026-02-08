@@ -15,9 +15,9 @@ const About = ()=>{
         {/* ====== secondRow ====== */}
         <div className="secondRow">
  {/* left-column */}
-           <div className="home-left"> 
-            <h1>Hi, I’m Azizullah – a Frontend Developer building responsive and user-friendly web experiences.
-</h1>
+           <div className="about-left"> 
+            <h3>Hi, I’m Azizullah – a Frontend Developer building responsive and user-friendly web experiences.
+</h3>
 
 <p>Hi, I’m Azizullah, a Frontend Web Developer. I specialize in building clean, responsive, and user-friendly websites using HTML, CSS, JavaScript, Bootstrap and ReactJs. I enjoy turning creative ideas into interactive digital experiences and always aim for pixel-perfect design and smooth functionality. Beyond coding, I love learning new technologies, solving problems, and continuously improving my skills to stay up-to-date in the fast-moving tech world. I’m currently open to freelance projects, internships, and full-time opportunities where I can contribute and grow as a developer.</p>
 
@@ -28,7 +28,7 @@ const About = ()=>{
 
 </div>
             {/* right-column */}
-            <div className="home-right">
+            <div className="about-right">
                 <img src={myimage} alt="" />
             </div>
         </div>
