@@ -173,7 +173,12 @@ font-size: 12px;
 .cssProjects .secondRow {
   margin-top: -40px;
 }
-
+.cssProjects h1{
+  font-size: 25px;
+}
+.cssProjects p{
+  font-size: 14px;
+}
 }
 
 

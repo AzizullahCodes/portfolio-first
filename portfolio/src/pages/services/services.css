@@ -104,4 +104,11 @@ body{
     padding-top: 20px;
     padding-bottom: 40px;
   }
+
+  .services h1{
+    font-size: 25px;
+  }
+  .services p{
+    font-size: 14px;
+  }
 }
