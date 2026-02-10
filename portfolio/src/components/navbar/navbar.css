@@ -1,0 +1,15 @@
+/* Target all navbar links inside #navbar */
+#navbar .nav-link {
+  color: #dee2e6 !important;            /* default color for all non-active links */
+  transition: color 0.3s ease;      /* smooth hover/active transition */
+}
+
+/* Active page link */
+#navbar .nav-link.active {
+  color: #ffc107 !important;         /* color for current page */
+}
+
+/* Hover effect for desktop */
+#navbar .nav-link:hover {
+  color: #0d6efd !important;          /* hover color */
+}
