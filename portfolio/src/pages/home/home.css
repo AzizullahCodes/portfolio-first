@@ -10,7 +10,7 @@ body{
 
 /* ===== HOME ===== */
 .home{
-  min-height:100dvh;
+  min-height: 100dvh;
   display: flex;
   justify-content: center;
   /* background: linear-gradient(to right, #414345, #232526); */
