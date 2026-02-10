@@ -12,21 +12,27 @@ export default function Footer() {
     <MDBFooter className='bg-dark text-center text-white' id='footer'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1' href="https://github.com/azizullahcodes" role='button'>
             {/* <FaGithub fab icon='facebook-f' /> */}
             <FaGithub/>
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1' href="https://www.linkedin.com/in/azizullah-b8966835a" role='button'>
             {/* <MDBIcon fab icon='twitter' /> */}
             <FaLinkedin/>
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
-            {/* <MDBIcon fab icon='google' /> */}
-            <FaEnvelope/>
-          </MDBBtn>
-          <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+          <MDBBtn
+  outline
+  color="light"
+  floating
+  className="m-1"
+  href="mailto:azizullahcodes@gmail.com?subject=Let%27s%20Work%20Together&body=Hi%20Azizullah%2C%20I%20found%20your%20portfolio%20interesting."
+  role="button"
+>
+  <FaEnvelope />
+</MDBBtn>
+          <MDBBtn outline color="light" floating className='m-1' href="https://wa.me/923347257178" role='button'>
             {/* <MDBIcon fab icon='instagram' /> */}
             < FaWhatsapp/>
 
