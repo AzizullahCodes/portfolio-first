@@ -13,3 +13,9 @@
 #navbar .nav-link:hover {
   color: #0d6efd !important;          /* hover color */
 }
+
+#navbar {
+  position: sticky;
+  top:0;
+  /* z-index: 1100; */
+}

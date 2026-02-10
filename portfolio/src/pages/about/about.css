@@ -14,7 +14,7 @@ body{
   display: flex;
   justify-content: center;
  background: #101a20;
- padding-top: 80px;
+ padding-top: 40px;
  padding-bottom: 60px;
   /* background: linear-gradien.about-right, #414345, #232526); */
 }

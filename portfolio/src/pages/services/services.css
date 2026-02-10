@@ -15,7 +15,9 @@ body{
   justify-content: center;
   background: #101a20;
   padding-bottom: 80px;
-  padding-top: 80px;
+  padding-top: 30px;
+  padding-right: 20px;
+  padding-right: 20px;
 }
 
 /* ===== firstRow ===== */
@@ -102,7 +104,7 @@ body{
   }
 
   .services{
-    padding-top: 60px;
+    padding-top: 40px;
     padding-bottom: 40px;
   }
 

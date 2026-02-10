@@ -10,11 +10,12 @@ body{
 
 /* ===== HOME ===== */
 .home{
-  min-height: 100dvh;
+  min-height: auto;
   display: flex;
   justify-content: center;
   /* background: linear-gradient(to right, #414345, #232526); */
   background: #101a20;
+  padding-top: 40px;
 }
 
 /* ===== CONTAINER ===== */
@@ -165,7 +166,7 @@ body{
 flex-direction: column;
 gap:60px;}
 .home{
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 40px;
 }
 }
