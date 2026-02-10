@@ -18,18 +18,22 @@ Frontend Web Developer</h1>
     <button>Get In Touch</button>
 </div>
 <div className="home-icon">
- <a href="https://github.com/azizullahcodes" target="_blank" rel="github">
+ <div className="home-icon-subdiv"><a href="https://github.com/azizullahcodes" target="_blank" rel="github">
               <FaGithub className="icon" />
-            </a>
-            <a href="https://www.linkedin.com/in/azizullah-b8966835a" target="_blank" rel="linkdin">
+            </a></div>
+            
+            <div className="home-icon-subdiv"><a href="https://www.linkedin.com/in/azizullah-b8966835a" target="_blank" rel="linkdin">
               <FaLinkedin className="icon" />
-            </a>
-            <a href="mailto:azizullahcodes@gmail.com?subject=Let's%20Work%20Together&body=Hi%20Azizullah%2C%20I%20found%20your%20portfolio%20interesting." rel='emial'>
+            </a></div>
+            
+
+            <div className="home-icon-subdiv"><a href="mailto:azizullahcodes@gmail.com?subject=Let's%20Work%20Together&body=Hi%20Azizullah%2C%20I%20found%20your%20portfolio%20interesting." rel='emial'>
               <FaEnvelope className="icon" />
-            </a>
-            <a href="https://wa.me/923347257178" target="_blank" rel="whatsapp">
+            </a></div>
+           
+           <div className="home-icon-subdiv"> <a href="https://wa.me/923347257178" target="_blank" rel="whatsapp">
               <FaWhatsapp className="icon" />
-            </a>
+            </a></div>
 </div></div>
             {/* right-column */}
             <div className="home-right">

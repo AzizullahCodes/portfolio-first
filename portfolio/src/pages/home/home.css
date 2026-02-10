@@ -89,11 +89,37 @@ body{
 .home-icon{
   display: flex;
   gap: 20px;
-  padding-top: 20px;
+   padding-top: 20px; 
+
+
+}
+
+.home-icon-subdiv{
+  height: 45px;
+  width: 45px;
+  
+  border: 1px solid white;
+ 
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.home-icon-subdiv:hover .icon {
+  color:#24333d;
+}
+
+.home-icon-subdiv:hover{
+  background-color:#dee2e6;
+ 
+}
+.home-icon-subdiv:active {
+  background-color: white;
 }
 
 .icon{
-  font-size: 40px;
+  font-size:30px;
   color: #dee2e6;
 }
 
