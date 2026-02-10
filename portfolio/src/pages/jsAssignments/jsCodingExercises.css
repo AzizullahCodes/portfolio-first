@@ -1,0 +1,212 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+/* ===== SERVICES ===== */
+.jsCodingExercises{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: #101a20;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+ .jsCodingExercises .jsExercisesContainer{ max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;}
+
+/* ===== firstRow ===== */
+.jsCodingExercises .firstRow{
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+ .jsCodingExercises .firstRow h1{
+  color: #dee2e6;
+  font-size: 50px;
+}
+
+ .jsCodingExercises .firstRow p{
+  max-width: 800px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+  color: #dee2e6;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* ===== secondRow ===== */
+ .jsCodingExercises .secondRow{
+  display: grid;
+  max-width: 1080px;
+  margin: auto;
+  grid-template-columns:50% 50%;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+/* ===== cards ===== */
+ .jsCodingExercises .secondRow .card{
+   background-color:white; 
+   color: black;
+  
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  gap: 12px;
+  border-radius: 8px;
+  
+}
+.jsCodingExercises .secondRow .card p{
+  margin-top: 10px;
+  margin-bottom: -5px;
+  font-weight: bold;
+}
+ 
+.jsCodingExercises .secondRow .card img{
+  width: 100%;
+}
+
+ 
+
+.secondRow .card h4{
+  font-size: 18px;
+}
+
+.secondRow .card p{
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.jsCodingExercises .one{
+    padding: 6px 30px;
+
+  background: transparent;      
+  border: 2px solid black;      
+  color: black;                
+font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.jsCodingExercises .two{
+    padding: 6px 18px;
+
+  background: transparent;      
+  border: 2px solid black;      
+  color: black;                 
+font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.jsCodingExercises .one a, .jsCodingExercises .two a {
+  text-decoration: none;
+  color:black;
+}
+
+.jsCodingExercises .one a:hover, .jsCodingExercises .two a:hover {
+  
+  color:white;
+}
+.jsCodingExercises div{
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;      
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.jsCodingExercises button:hover {
+  background: black;
+  
+}
+
+
+
+/* ===== RESPONSIVE ===== */
+
+
+
+@media (max-width: 768px){
+ .jsCodingExercises .secondRow{
+    grid-template-columns:100%;
+    
+  }
+}
+
+@media (max-width: 500px){
+ 
+  .jsCodingExercises{
+    padding-top: 10px;
+  }
+  .jsCodingExercises .one{
+    padding: 6px 14px;
+  color: black;                
+font-size: 12px;
+}
+.jsCodingExercises .jsExercisesContainer .firstRow h1{
+  font-size: 20px;
+}
+.jsCodingExercises .jsExercisesContainer .firstRow p{
+  font-size: 14px;
+}
+
+.jsCodingExercises .two{
+    padding: 6px 8px;
+font-size: 12px;
+}
+
+.jsCodingExercises .secondRow .card{
+  padding-top: 5px;
+  padding-bottom:0px;
+  gap: 12px;
+}
+.jsCodingExercises .secondRow .card p{
+  font-size: 10px;
+}
+.jsCodingExercises .secondRow {
+  margin-top: -40px;
+}
+
+}
+
+
+@media(max-width:1060px){
+  .jsCodingExercises button{
+   padding: 8px 20px;  
+ 
+   background-color: black; 
+  color: #dee2e6;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+  border: none;
+  white-space: nowrap;
+}
+}
+
+@media(max-width:925px){
+  
+.jsCodingExercises div{
+  display: flex;
+  flex-direction: row;
+  
+}
+}

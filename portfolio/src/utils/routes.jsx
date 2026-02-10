@@ -5,7 +5,7 @@ import About from "../pages/about/about";
 import Services from "../pages/services/services";
 import CssProjects from "../pages/cssProjects/cssProjects";
 import JsTasks from "../pages/jsProjects/jsProjects";
-import CodingExercises from "../pages/jsAssignments/jsPractice";
+import CodingExercises from "../pages/jsAssignments/jsCodingExercises";
 import Contact from "../pages/contact/contact";
 import {Routes,Route} from 'react-router-dom';
 const MyRoutes = ()=>{
@@ -16,7 +16,9 @@ const MyRoutes = ()=>{
             <Route path="/services" element={<Services/>}/>
             <Route path="/cssProjects" element={<CssProjects/>}/>
             <Route path="/jsProjects" element={<JsTasks/>}/>
-            <Route path="/jsPractice" element={<CodingExercises/>}/>
+            {/* <Route path="/jsPractice" element={<CodingExercises/>}/> */}
+            <Route path="/codingExercises" element={<CodingExercises />} />
+
             <Route path="/contact" element={<Contact/>}/>
             
 
