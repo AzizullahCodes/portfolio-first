@@ -5,18 +5,7 @@ import React from "react";
 import './jsCodingExercises.css'
 import first from '../../assets/images/codingExercisesImages/first.PNG';
 import third from '../../assets/images/codingExercisesImages/third.PNG';
-import swappingImages from '../../assets/images/javascriptImages/swappingImages.PNG';
-import hashtagGenerator from '../../assets/images/javascriptImages/hashtagGenerator.PNG';
-import palindromeChecker from '../../assets/images/javascriptImages/palindromeChecker.PNG';
-import autoBackgroundColorChanger from '../../assets/images/javascriptImages/autoBackgroundColorChanger.PNG';
-import autoImageSlider from '../../assets/images/javascriptImages/autoImageSlider.PNG';
-import cnicMasker from '../../assets/images/javascriptImages/cnicMasker.PNG';
-import simpleImageSlider from '../../assets/images/javascriptImages/simpleImageSlider.PNG';
-import multiplestylechanger from '../../assets/images/javascriptImages/multiplestylechanger.PNG';
-import vowelConsonantSeperator from '../../assets/images/javascriptImages/vowelConsonantSeperator.PNG';
-import miniBankingSystem from '../../assets/images/javascriptImages/miniBankingSystem.PNG';
-import urlGenerator from '../../assets/images/javascriptImages/urlGenerator.PNG';
-import jsSignup from '../../assets/images/javascriptImages/jsSignup.PNG';
+
 
 
 import Button from 'react-bootstrap/Button';
@@ -76,3 +65,62 @@ const CodingExercises = () => {
 };
 
 export default CodingExercises;
+
+
+
+
+
+
+/* import React from "react";
+import "./jsCodingExercises.css";
+import first from "../../assets/images/codingExercisesImages/first.PNG";
+import third from "../../assets/images/codingExercisesImages/third.PNG";
+
+import ExerciseCard from "./ExerciseCard";
+
+const CodingExercises = () => {
+
+  const projects = [
+    {
+      id: 1,
+      title: "Project-01 screenshot, live & github link",
+      image: first,
+      github: "https://github.com/AzizullahCodes/first-js-logic-building-test.git",
+    },
+    {
+      id: 2,
+      title: "Project-02 screenshot, live & github link",
+      image: third,
+      github: "https://github.com/AzizullahCodes/array-practice-second-assignment.git",
+    },
+  ];
+
+  return (
+    <section className="jsCodingExercises">
+      <div className="jsExercisesContainer">
+
+        <div className="firstRow">
+          <h1>My JavaScript Coding Exercises</h1>
+          <p>
+            This section showcases my 60+ coding exercise collections...
+          </p>
+        </div>
+
+        <div className="secondRow">
+          {projects.map((project) => (
+            <ExerciseCard
+              key={project.id}
+              title={project.title}
+              image={project.image}
+              githubLink={project.github}
+            />
+          ))}
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default CodingExercises;
+ */
