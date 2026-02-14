@@ -19,7 +19,7 @@ const CodingExercises = () => {
         <div className="firstRow">
           <h1>My JavaScript Coding Exercises</h1>
           <p>
-           This section showcases my 60+ coding exercise collections, each containing 
+           This section showcases my 50+ coding exercise collections, each containing 
            around 50 problem-solving questions with practical JavaScript solutions. 
            From core concepts like DOM manipulation, functions, conditions, loops, 
            arrays, and strings to advanced topics such as OOP, promises, APIs, and 
