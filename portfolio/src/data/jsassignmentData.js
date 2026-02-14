@@ -41,18 +41,21 @@ import fourtyTwo from '../assets/images/codingExercisesImages/fourtyTwo.PNG'
 import fourtyThree from '../assets/images/codingExercisesImages/fourtyThree.PNG';
 import fourtyFour from '../assets/images/codingExercisesImages/fourtyFour.PNG';
 import fourtyFive from '../assets/images/codingExercisesImages/fourtyfive.PNG';
-import first from '../assets/images/codingExercisesImages/first.PNG';
-import third from '../assets/images/codingExercisesImages/third.PNG';
-import fourth from '../assets/images/codingExercisesImages/fourth.PNG'
-import first from '../assets/images/codingExercisesImages/first.PNG';
-import third from '../assets/images/codingExercisesImages/third.PNG';
-import fourth from '../assets/images/codingExercisesImages/fourth.PNG';
-import first from '../assets/images/codingExercisesImages/first.PNG';
-import third from '../assets/images/codingExercisesImages/third.PNG';
-import fourth from '../assets/images/codingExercisesImages/fourth.PNG'
-import first from '../assets/images/codingExercisesImages/first.PNG';
-import third from '../assets/images/codingExercisesImages/third.PNG';
-import fourth from '../assets/images/codingExercisesImages/fourth.PNG';
+import fourtySix from '../assets/images/codingExercisesImages/fourtySix.PNG';
+import fourtySeven from '../assets/images/codingExercisesImages/fourtySeven.PNG';
+import fourtyEight from '../assets/images/codingExercisesImages/fourtyEight.PNG'
+import fourtyNine from '../assets/images/codingExercisesImages/fourtyNine.PNG';
+import fifty from '../assets/images/codingExercisesImages/fifty.PNG';
+import fiftyOne from '../assets/images/codingExercisesImages/fiftyOne.PNG';
+import fiftyTwo from '../assets/images/codingExercisesImages/fiftyTwo.PNG';
+import fiftyThree from '../assets/images/codingExercisesImages/fiftyThree.PNG';
+import fiftyFour from '../assets/images/codingExercisesImages/fiftyFour.PNG'
+import fiftyFive from '../assets/images/codingExercisesImages/fiftyFive.PNG';
+import fiftySix from '../assets/images/codingExercisesImages/fiftySix.PNG';
+import fiftySeven from '../assets/images/codingExercisesImages/fiftySeven.PNG';
+import fiftyEight from '../assets/images/codingExercisesImages/fiftyEight.PNG';
+import fiftyNine from '../assets/images/codingExercisesImages/fiftyNine';
+import sixty from '../assets/images/codingExercisesImages/sixty.PNG';
 
 
 const projects = [
