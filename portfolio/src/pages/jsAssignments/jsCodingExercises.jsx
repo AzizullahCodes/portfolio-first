@@ -2,15 +2,15 @@
 
 
 import React from "react";
-import './jsCodingExercises.css'
-import first from '../../assets/images/codingExercisesImages/first.PNG';
-import third from '../../assets/images/codingExercisesImages/third.PNG';
-
+import './jsCodingExercises.css';
+import ExerciseCard from "../../props/ExerciseCards";
+import projects from "../../data/jsassignmentData";
 
 
 import Button from 'react-bootstrap/Button';
 
 const CodingExercises = () => {
+  
   return (
     <section className="jsCodingExercises">
       <div className="jsExercisesContainer">
@@ -33,26 +33,21 @@ const CodingExercises = () => {
 
         {/* ====== secondRow ====== */}
         <div className="secondRow">
-            {/* ======= project-01 ====== */}
-      <div className="card">
-        <p>Project-01 screenshot, live & github link</p>
-        <img src={first} alt="figma-img" />
-        <div>
-           
-            <button className="two"><a href="https://github.com/AzizullahCodes/first-js-logic-building-test.git" target="_blank" >Github Link</a></button> 
+           {
+            
+           projects.map((item)=>{
+            return(
+              <ExerciseCard 
+              key={item.id}
+              title={item.title}
+              image={item.image}
+              githubLink={item.github}
               
-        </div> 
-      </div>
-
-       {/* ======= project-02 ====== */}
-      <div className="card">
-        <p>Project-02 screenshot, live & github link</p>
-        <img src={third} alt="figma-img" />
-        <div>
-            <button className="two"><a href="https://github.com/AzizullahCodes/array-practice-second-assignment.git" target="_blank" >Github Link</a></button> 
-              
-        </div> 
-      </div>
+              />
+            )
+           })
+          
+           }
 
        
 
