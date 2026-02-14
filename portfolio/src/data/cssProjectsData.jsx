@@ -35,7 +35,7 @@ const cssProjectsData = [
     },
     {
         id : 3,
-        title :"Project-02 screenshot, live & github link" ,
+        title :"Project-03 screenshot, live & github link" ,
         image :projectThree ,
         live :"https://e-commerce-web-two-nu.vercel.app",
         github :"https://github.com/AzizullahCodes/E-commerce-web.git",
@@ -43,7 +43,7 @@ const cssProjectsData = [
     },
     {
         id : 4,
-        title :"Project-02 screenshot, live & github link" ,
+        title :"Project-04 screenshot, live & github link" ,
         image :projectFour ,
         live :"https://figma-small-web-page.vercel.app",
         github :"https://github.com/AzizullahCodes/figma-small-web-page.git",
@@ -51,7 +51,7 @@ const cssProjectsData = [
     },
     {
         id : 5,
-        title :"Project-02 screenshot, live & github link" ,
+        title :"Project-05 screenshot, live & github link" ,
         image :projectFive ,
         live :"https://figma-design-05.vercel.app",
         github :"https://github.com/AzizullahCodes/figma-design-05.git",
@@ -59,7 +59,7 @@ const cssProjectsData = [
     },
     {
         id : 6,
-        title :"Project-02 screenshot, live & github link" ,
+        title :"Project-06 screenshot, live & github link" ,
         image :projectSix ,
         live :"https://small-figma-to-coding.vercel.app",
         github :"https://github.com/AzizullahCodes/small-figma-to-coding.git",
@@ -67,7 +67,7 @@ const cssProjectsData = [
     },
     {
         id : 7,
-        title :"Project-02 screenshot, live & github link" ,
+        title :"Project-07 screenshot, live & github link" ,
         image :projectSeven ,
         live :"https://school-website-nine-neon.vercel.app",
         github :"https://github.com/AzizullahCodes/School-website.git",
@@ -75,7 +75,7 @@ const cssProjectsData = [
     },
     {
         id : 8,
-        title :"Project-02 screenshot, live & github link" ,
+        title :"Project-08 screenshot, live & github link" ,
         image :projectEight ,
         live :"https://mountain-xi-murex.vercel.app",
         github :"https://github.com/AzizullahCodes/Mountain.git",
@@ -83,7 +83,7 @@ const cssProjectsData = [
     },
     {
         id : 9,
-        title :"Project-02 screenshot, live & github link" ,
+        title :"Project-09 screenshot, live & github link" ,
         image :projectNine ,
         live :"https://mumtaz-sea-show-piece-online-store.vercel.app/",
         github :"https://github.com/AzizullahCodes/Mumtaz-sea-show-piece-online-store.git" ,
@@ -91,7 +91,7 @@ const cssProjectsData = [
     },
     {
         id : 10,
-        title :"Project-02 screenshot, live & github link" ,
+        title :"Project-10 screenshot, live & github link" ,
         image :projectTen ,
         live :"https://web-02-eight.vercel.app",
         github :"https://github.com/AzizullahCodes/web-02",
@@ -99,7 +99,7 @@ const cssProjectsData = [
     },
     {
         id : 11,
-        title :"Project-02 screenshot, live & github link" ,
+        title :"Project-11 screenshot, live & github link" ,
         image :projectEleven ,
         live :"https://figma-mu-lemon.vercel.app",
         github :"https://github.com/AzizullahCodes/figma.git",
@@ -107,7 +107,7 @@ const cssProjectsData = [
     },
     {
         id : 12,
-        title :"Project-02 screenshot, live & github link" ,
+        title :"Project-12 screenshot, live & github link" ,
         image :projectTwelve ,
         live :"https://azizullahcodes.github.io/practice-web/",
         github :"https://github.com/AzizullahCodes/practice-web.git",
@@ -115,7 +115,7 @@ const cssProjectsData = [
     },
     {
         id : 13,
-        title :"Project-02 screenshot, live & github link" ,
+        title :"Project-13 screenshot, live & github link" ,
         image :projectThirteen ,
         live :"https://my-css-projects.github.io/finalfigma/",
         github :"https://github.com/My-css-projects/finalfigma.git",
@@ -123,7 +123,7 @@ const cssProjectsData = [
     },
     {
         id : 14,
-        title :"Project-02 screenshot, live & github link" ,
+        title :"Project-14 screenshot, live & github link" ,
         image :projectTwelve ,
         live :"https://azizullahcodes.github.io/practice-web/",
         github :"https://github.com/AzizullahCodes/practice-web.git",
