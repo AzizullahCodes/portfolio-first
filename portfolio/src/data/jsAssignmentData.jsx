@@ -54,8 +54,10 @@ import fiftyFive from '../assets/images/codingExercisesImages/fiftyFive.PNG';
 import fiftySix from '../assets/images/codingExercisesImages/fiftySix.PNG';
 import fiftySeven from '../assets/images/codingExercisesImages/fiftySeven.PNG';
 import fiftyEight from '../assets/images/codingExercisesImages/fiftyEight.PNG';
-import fiftyNine from '../assets/images/codingExercisesImages/fiftyNine';
+import fiftyNine from '../assets/images/codingExercisesImages/fiftyNine.PNG';
 import sixty from '../assets/images/codingExercisesImages/sixty.PNG';
+import sixtyOne from '../assets/images/codingExercisesImages/sixtyOne.PNG';
+
 
 
 const projects = [
@@ -83,376 +85,376 @@ const projects = [
    {
     id: 4,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :fifth ,
     github :"https://github.com/AzizullahCodes/array-four-assignment.git"
 
   },
   {
     id : 5,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : seventh,
     github : "https://github.com/AzizullahCodes/js-practice-assignment-05.git"
 
   },
   {
     id : 6,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : eighth,
     github : "https://github.com/AzizullahCodes/js-practice-assignment-project-03.git"
   },
   
    {
     id: 7,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :nineth ,
     github :"https://github.com/AzizullahCodes/js-practice-assignment-mini-project-04.git"
 
   },
   {
     id : 8,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : eleventh,
     github : "https://github.com/AzizullahCodes/logic-building-project-06.git"
 
   },
   {
     id : 9,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : twelveth,
     github : "https://github.com/AzizullahCodes/js-logic-building-second-test.git"
   },
   
    {
     id: 10,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :thirteen ,
     github :"https://github.com/AzizullahCodes/marriage-calculator.git"
 
   },
   {
     id : 11,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : fourteenth,
     github : "https://github.com/AzizullahCodes/nested-if.git"
 
   },
   {
     id : 12,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : fifteenth,
     github : "https://github.com/AzizullahCodes/nested-if--second-assignment.git"
   },
   
    {
     id: 13,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :sixteenth ,
     github :"https://github.com/AzizullahCodes/js-assignment-21.git"
 
   },
   {
     id : 14,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : seventeen,
     github : "https://github.com/AzizullahCodes/js-assignment-22.git"
 
   },
   {
     id : 15,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : eighteen,
     github : "https://github.com/AzizullahCodes/js-basic-problem-slolving-assignment-15.git"
   },
   
    {
     id: 16,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :nineteen ,
     github :"https://github.com/AzizullahCodes/js-basic-problem-solving-assignment-16-for-loop-.git"
 
   },
   {
     id : 17,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : twenty,
     github : "https://github.com/AzizullahCodes/js-practice-20-assignment-basic-problems-solving.git"
 
   },
   {
     id : 18,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : twentyOne,
     github : "https://github.com/AzizullahCodes/js-practice-assignment-23.git"
   },
   
    {
     id: 19,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image : twentyTwo ,
     github :"https://github.com/AzizullahCodes/js-practice-basic-problem-solving-assignment-18.git"
 
   },
   {
     id : 20,
     title :"Exercise-02 screenshot and github link",
-    image : third,
-    github : "https://github.com/AzizullahCodes/js-practice-basic-problem-solving-assignment-17-related-for-loop-etc-.git
+    image : twentyThree,
+    github : "https://github.com/AzizullahCodes/js-practice-basic-problem-solving-assignment-17-related-for-loop-etc-.git"
 
   },
   {
     id : 21,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : twentyFour,
     github : "https://github.com/AzizullahCodes/js-practice-basic-problem-solving-assignment-19.git"
   },
   
    {
     id: 22,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :twentyFive ,
     github :"https://github.com/AzizullahCodes/js-practice-assignment-24.git"
 
   },
   {
     id : 23,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : twentySeven,
     github : "https://github.com/AzizullahCodes/js-practice-assignment-25.git"
   },
   {
     id : 24,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : twentyEight,
     github : "https://github.com/AzizullahCodes/js-practice-assinment-27.git"
   },
   
    {
     id: 25,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :twentyNine ,
     github :"https://github.com/AzizullahCodes/js-practice-assignment-28.git"
 
   },
   {
     id : 26,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : thirty,
     github : "https://github.com/AzizullahCodes/js-practice-assignment-29.git"
 
   },
   {
     id : 27,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : thirtyOne,
     github : "https://github.com/AzizullahCodes/js-practice-assignment-30.git"
   },
   
    {
     id: 28,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :thirtyTwo ,
     github :"https://github.com/AzizullahCodes/js-practice-assignment-31.git"
 
   },
   {
     id : 29,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : thirtyThree,
     github : "https://github.com/AzizullahCodes/js-practice-assignment-32.git"
   },
   {
     id : 30,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image :thirtyThree,
     github : "https://github.com/AzizullahCodes/js-practice-assignment-33-a.git"
   },
   
    {
     id: 31,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :thirtyFour ,
     github :"https://github.com/AzizullahCodes/js-practice-assignment-34.git"
 
   },
   {
     id : 32,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : thirtyFive,
     github : "https://github.com/AzizullahCodes/array-practice-second-assignment.git"
 
   },
   {
     id : 33,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : thirtySix,
     github : "https://github.com/AzizullahCodes/js-practice-assignment-35.git"
   },
   
    {
     id: 34,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :thirtySeven ,
     github :"https://github.com/AzizullahCodes/assignment-js-practice-logic-building-36.git"
 
   },
   {
     id : 35,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : thirtyEight,
     github : "https://github.com/AzizullahCodes/assignment-js-practice-logic-building-37.git"
 
   },
   {
     id : 36,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : thirtyNine,
     github : "https://github.com/AzizullahCodes/assignment-js-practice-loginc-building-38.git"
   },
   
    {
     id: 37,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :fourty ,
     github :"https://github.com/AzizullahCodes/assignment-js-practice-logic-building-39.git"
 
   },
   {
     id : 38,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : fourtyOne,
     github : "https://github.com/AzizullahCodes/assignment-js-practice-logic-building-40.git"
 
   },
   {
     id : 39,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : fourtyTwo,
     github : "https://github.com/AzizullahCodes/assignment-js-practice-logic-building-41.git"
   },
   
    {
     id: 40,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :fourtyThree ,
     github :"https://github.com/AzizullahCodes/assignment-js-practice-logic-building-42.git"
 
   },
   {
     id : 41,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : fourtyFour,
     github : "https://github.com/AzizullahCodes/assignment-js-logic-building-43.git"
 
   },
   {
     id : 42,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : fourtyFive,
     github : "https://github.com/AzizullahCodes/assignment-44.git"
   },
   
    {
     id: 43,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :fourtySix ,
     github :"https://github.com/AzizullahCodes/assignment-45-problem-soliving-javascript.git"
 
   },
   {
     id : 44,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : fourtySeven,
     github : "https://github.com/AzizullahCodes/assignment-46.git"
 
   },
   {
     id : 45,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : fourtyEight,
     github : "https://github.com/My-javascipt-assinment/assignment-47-javascript-problem-solving.git"
   },
   
    {
     id: 46,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :fourtyNine ,
     github :"https://github.com/My-javascipt-assinment/assignment-javascript-48.git"
 
   },
   {
     id : 47,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : fifty,
     github : "https://github.com/My-javascipt-assinment/assignment-javascript-49.git"
 
   },
   {
     id : 48,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : fiftyOne,
     github : "https://github.com/My-javascipt-assinment/assignment-javascript-50.git"
   },
   
    {
     id: 49,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :fiftyTwo ,
     github :"https://github.com/My-javascipt-assinment/assignment-js-52.git"
 
   },
   {
     id : 50,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : fiftyThree,
     github : "https://github.com/My-javascipt-assinment/assingment-js-53.git"
 
   },
   {
     id : 51,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : fiftyFour,
     github : "https://github.com/My-javascipt-assinment/assignment-javascript-54.git"
   },
   
    {
     id: 52,
     title :"Exercise-01 screenshot and github link" ,
-    image :first ,
+    image :fiftyFive ,
     github :"https://github.com/My-javascipt-assinment/assignment-55.git"
 
   },
   {
     id : 53,
     title :"Exercise-02 screenshot and github link",
-    image : third,
+    image : fiftySix,
     github : "https://github.com/My-javascipt-assinment/assignment-js-56.git"
 
   },
   {
     id : 54,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : fiftySeven,
     github : "https://github.com/My-javascipt-assinment/assignment-js-57.git"
   },
   {
     id : 55,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : fiftyEight,
     github : "https://github.com/My-javascipt-assinment/assignment-58-problem-solving.git"
   },{
     id : 56,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : fiftyNine,
     github : "https://github.com/My-javascipt-assinment/assignment-59-problem-solving.git"
   },{
     id : 57,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : sixty,
     github : "https://github.com/My-javascipt-assinment/assignment-60-problem-solving.git"
   },{
     id : 58,
     title :"Exercise-03 screenshot and github link" ,
-    image : fourth,
+    image : sixtyOne,
     github : "https://github.com/My-javascipt-assinment/assignment-61-problem-solving.git"
   }
   ]

@@ -4,7 +4,7 @@
 import React from "react";
 import './jsCodingExercises.css';
 import ExerciseCard from "../../props/ExerciseCards";
-import projects from "../../data/jsassignmentData";
+import projects from "../../data/jsAssignmentData";
 
 
 import Button from 'react-bootstrap/Button';
