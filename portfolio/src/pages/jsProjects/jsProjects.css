@@ -29,7 +29,7 @@ body{
   padding-top: 40px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   text-align: center;
 }
 
@@ -40,7 +40,7 @@ body{
 
  .jsProjects .firstRow p{
   max-width: 800px;
-  margin: 20px auto 0;
+  margin: 10px auto 0;
   padding: 0 20px;
   color: #dee2e6;
   font-size: 18px;
@@ -51,7 +51,7 @@ body{
  .jsProjects .secondRow{
   display: grid;
   max-width: 1080px;
-  margin: auto;
+  /* margin: auto; */
   grid-template-columns:50% 50%;
   gap: 20px;
   padding: 0 20px;

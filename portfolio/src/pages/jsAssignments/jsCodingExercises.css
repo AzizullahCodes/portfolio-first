@@ -26,10 +26,10 @@ body{
 
 /* ===== firstRow ===== */
 .jsCodingExercises .firstRow{
-  padding-top: 40px;
+  padding-top: 0px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 80px;
+  padding-bottom: 60px;
   text-align: center;
 }
 

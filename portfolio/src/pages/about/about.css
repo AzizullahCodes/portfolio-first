@@ -44,7 +44,8 @@ body{
   max-width: 83%;
   margin: auto;
   display: flex;
-  flex-wrap: wrap;
+ gap:80px;
+  /* flex-wrap: wrap; */
   align-items: center;
 }
 
