@@ -13,7 +13,7 @@ import projectNine from '../assets/images/cssImages/projectNine.png'
 import projectTen from '../assets/images/cssImages/projectTen.PNG'
 import projectEleven from '../assets/images/cssImages/projectEleven.PNG'
 import projectTwelve from '../assets/images/cssImages/projectTwelve.PNG'
-import projectThirteen from '../assets/images/cssImages/projectThirteen.png'
+import projectThirteen from '../assets/images/cssImages/projectThirteen.PNG'
 
 
 const cssProjectsData = [
