@@ -40,7 +40,7 @@ import fourtyOne from '../assets/images/codingExercisesImages/fourtyOne.PNG';
 import fourtyTwo from '../assets/images/codingExercisesImages/fourtyTwo.PNG'
 import fourtyThree from '../assets/images/codingExercisesImages/fourtyThree.PNG';
 import fourtyFour from '../assets/images/codingExercisesImages/fourtyFour.PNG';
-import fourtyFive from '../assets/images/codingExercisesImages/fourtyfive.PNG';
+import fourtyFive from '../assets/images/codingExercisesImages/fourtyFive.PNG';
 import fourtySix from '../assets/images/codingExercisesImages/fourtySix.PNG';
 import fourtySeven from '../assets/images/codingExercisesImages/fourtySeven.PNG';
 import fourtyEight from '../assets/images/codingExercisesImages/fourtyEight.PNG'
