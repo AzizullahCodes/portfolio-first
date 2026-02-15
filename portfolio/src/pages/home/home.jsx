@@ -1,9 +1,13 @@
 // home.jsx
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import myimage from '../../assets/images/profileImages/myimage.png';
 import './home.css'
 const Home = ()=>{
+  // navigation variable 
+  const navigate = useNavigate();
+  const navigateToCss = useNavigate();
     return(
        <section className="home">
         <div className="homeContainer">
@@ -14,8 +18,15 @@ Frontend Web Developer</h1>
 <p>I’m a Frontend Website Developer passionate about creating clean, responsive, and user-friendly web experiences. I love turning ideas into interactive, modern, and visually appealing websites using HTML, CSS, JavaScript, and modern frameworks.</p>
 
 <div className="buttondiv">
-    <button>View My Work</button>
-    <button>Get In Touch</button>
+    <button onClick={()=>navigateToCss("/jsProjects")}>View My Work</button>
+    {/* <button>Get In Touch</button> */}
+ 
+        <button onClick={()=>navigate("/contact")}>Get In Touch</button>
+      
+
+    {/* <Link to="/contact">
+        <button>Get In Touch</button>
+      </Link> */}
 </div>
 <div className="home-icon">
  <div className="home-icon-subdiv"><a href="https://github.com/azizullahcodes" target="_blank" rel="github">

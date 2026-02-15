@@ -1,9 +1,13 @@
 // about.jsx
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import './about.css';
+import updateResume from '../../assets/images/resume/updateResume.pdf'
 import myimage from '../../assets/images/profileImages/myimage.png';
 import ProgressBar from 'react-bootstrap/ProgressBar';
 const About = ()=>{
+  // navigation variable 
+  const navigate = useNavigate();
     return(
        <section className="about">
        <div className="aboutContainer">
@@ -22,8 +26,10 @@ const About = ()=>{
 <p>Hi, I’m Azizullah, a Frontend Web Developer. I specialize in building clean, responsive, and user-friendly websites using HTML, CSS, JavaScript, Bootstrap and ReactJs. I enjoy turning creative ideas into interactive digital experiences and always aim for pixel-perfect design and smooth functionality. Beyond coding, I love learning new technologies, solving problems, and continuously improving my skills to stay up-to-date in the fast-moving tech world. I’m currently open to freelance projects, internships, and full-time opportunities where I can contribute and grow as a developer.</p>
 
 <div className="buttondiv">
-    <button>View My Work</button>
-    <button>Download Resume</button>
+    <button onClick={()=>navigate("/jsProjects")}>View My Work</button>
+    <a href={updateResume}>
+      <button>Download Resume</button>
+    </a>
 </div>
 
 </div>
