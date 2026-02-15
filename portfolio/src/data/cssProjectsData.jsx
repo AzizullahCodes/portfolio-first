@@ -2,18 +2,18 @@
 
 import React from "react";
 import projectOne from '../assets/images/cssImages/projectOne.PNG';
-import projectTwo from '../assets/images/cssImages/projectTwo.PNG'
+import projectTwo from '../assets/images/cssImages/projectTwo.png'
 import projectThree from '../assets/images/cssImages/projectThree.PNG'
-import projectFour from '../assets/images/cssImages/projectFour.PNG'
-import projectFive from '../assets/images/cssImages/projectFive.PNG'
-import projectSix from '../assets/images/cssImages/projectSix.PNG'
-import projectSeven from '../assets/images/cssImages/projectSeven.PNG'
-import projectEight from '../assets/images/cssImages/projectEight.PNG'
-import projectNine from '../assets/images/cssImages/projectNine.PNG'
-import projectTen from '../assets/images/cssImages/projectTen.PNG'
-import projectEleven from '../assets/images/cssImages/projectEleven.PNG'
-import projectTwelve from '../assets/images/cssImages/projectTwelve.PNG'
-import projectThirteen from '../assets/images/cssImages/projectThirteen.PNG'
+import projectFour from '../assets/images/cssImages/projectFour.png'
+import projectFive from '../assets/images/cssImages/projectFive.png'
+import projectSix from '../assets/images/cssImages/projectSix.png'
+import projectSeven from '../assets/images/cssImages/projectSeven.png'
+import projectEight from '../assets/images/cssImages/projectEight.png'
+import projectNine from '../assets/images/cssImages/projectNine.png'
+import projectTen from '../assets/images/cssImages/projectTen.png'
+import projectEleven from '../assets/images/cssImages/projectEleven.png'
+import projectTwelve from '../assets/images/cssImages/projectTwelve.png'
+import projectThirteen from '../assets/images/cssImages/projectThirteen.png'
 
 
 const cssProjectsData = [
