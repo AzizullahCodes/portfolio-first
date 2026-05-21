@@ -11,7 +11,7 @@
 
 /* Active page link */
 #navbar .nav-link.active {
-  color: #ffc107 !important;         /* color for current page */
+  color: blue !important;         /* color for current page */
 }
 
 /* Hover effect for desktop */
