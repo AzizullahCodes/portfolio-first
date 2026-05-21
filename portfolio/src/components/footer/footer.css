@@ -1,0 +1,10 @@
+.footerIcon:hover{
+    color: inherit;
+    background: none;
+    transform: none;
+    box-shadow: none;
+    margin-left: 5px;
+}
+.footerIcon{
+    margin: 0 5px !important;
+}
