@@ -16,6 +16,10 @@ import vowelConsonantSeperator from '../assets/images/javascriptImages/vowelCons
 import miniBankingSystem from '../assets/images/javascriptImages/miniBankingSystem.PNG';
 import urlGenerator from '../assets/images/javascriptImages/urlGenerator.PNG';
 import jsSignup from '../assets/images/javascriptImages/jsSignup.PNG';
+import advanceTodoList from '../assets/images/javascriptImages/advanceTodoList.PNG';
+import reactTodo from '../assets/images/javascriptImages/reactTodo.PNG';
+
+
 
 
 const jsProjectsData = [
@@ -129,6 +133,22 @@ const jsProjectsData = [
         image :cnicMasker ,
         live :"https://javascript-tasks-voee.vercel.app/",
         github :"https://github.com/AzizullahCodes/javascriptTasks/tree/main/nicMasker",
+        
+    },
+    {
+        id : 15,
+        title :"Project-15 screenshot, live & github link" ,
+        image :advanceTodoList ,
+        live :"https://azizullahcodes.github.io/advanceTodoList/",
+        github :"https://github.com/AzizullahCodes/advanceTodoList.git",
+        
+    },
+    {
+        id : 16,
+        title :"Project-16 screenshot, live & github link" ,
+        image :reactTodo ,
+        live :"https://react-todo-4pi6-es90465m4-azizullahcodes.vercel.app/",
+        github :"https://github.com/MyRreacts-Projects/reactTodo.git",
         
     },
 ]
