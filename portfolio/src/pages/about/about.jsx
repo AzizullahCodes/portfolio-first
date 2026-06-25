@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import './about.css';
 // import updateResume from '../../assets/images/resume/updateResume.pdf'
 // import marchExpCv from '../../assets/images/resume/marchExpCv.pdf'
-import aziz from '../../assets/images/resume/aziz.pdf'
+import azizullahResume from '../../assets/images/resume/azizullahResume.pdf'
 
 import myimage from '../../assets/images/profileImages/myimage.png';
 import ProgressBar from 'react-bootstrap/ProgressBar';
@@ -30,7 +30,7 @@ const About = ()=>{
 
 <div className="buttondiv">
     <button onClick={()=>navigate("/jsProjects")}>View My Work</button>
-    <a href={aziz}>
+    <a href={azizullahResume}>
       <button>Download Resume</button>
     </a>
 </div>
