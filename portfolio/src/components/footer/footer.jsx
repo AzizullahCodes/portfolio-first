@@ -43,7 +43,7 @@ export default function Footer() {
       <div className='text-center pt-3 pb-5' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }} id='footer-last'>
        
         {/* <a className='text-white' href='https://mdbootstrap.com/'> */}
-         © 2025 by Azizullah Frontend Developer
+         © 2026 by Azizullah Frontend Developer
         {/* </a> */}
       </div>
     </MDBFooter>

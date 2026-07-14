@@ -16,17 +16,20 @@ const About = ()=>{
        <div className="aboutContainer">
         <div className="firstRow">
 <h1>About</h1>
-<p>I am a Frontend Web Developer with a strong understanding of HTML, CSS, Bootstrap, JavaScript, and React.js. I have built multiple CSS and JavaScript projects for practice during my learning journey and continue to improve my skills through real projects.</p>
+<p>I am a Frontend Web Developer with a strong understanding of HTML, CSS, Bootstrap, JavaScript, React.js, nextJs and typescript. I have built multiple CSS and JavaScript projects for practice during my learning journey and continue to improve my skills through real projects.</p>
 
         </div>
         {/* ====== secondRow ====== */}
         <div className="secondRow">
  {/* left-column */}
            <div className="about-left"> 
-            <h3>Hi, I’m Azizullah – a Frontend Developer building responsive and user-friendly web experiences.
+            <h3>Hi, I’m Azizullah – a Frontend Developer building responsive and 
+              user-friendly web experiences.
 </h3>
 
-<p>Hi, I’m Azizullah, a Frontend Web Developer. I specialize in building clean, responsive, and user-friendly websites using HTML, CSS, JavaScript, Bootstrap and ReactJs. I enjoy turning creative ideas into interactive digital experiences and always aim for pixel-perfect design and smooth functionality. Beyond coding, I love learning new technologies, solving problems, and continuously improving my skills to stay up-to-date in the fast-moving tech world. I’m currently open to freelance projects, internships, and full-time opportunities where I can contribute and grow as a developer.</p>
+<p>Hi, I’m Azizullah, a Frontend Web Developer. I specialize in building clean,
+   responsive, and user-friendly websites using HTML, CSS, JavaScript, Bootstrap
+     ReactJs,nextJs and typescript. I enjoy turning creative ideas into interactive digital experiences and always aim for pixel-perfect design and smooth functionality. Beyond coding, I love learning new technologies, solving problems, and continuously improving my skills to stay up-to-date in the fast-moving tech world. I’m currently open to freelance projects, internships, and full-time opportunities where I can contribute and grow as a developer.</p>
 
 <div className="buttondiv">
     <button onClick={()=>navigate("/jsProjects")}>View My Work</button>
@@ -38,13 +41,13 @@ const About = ()=>{
 </div>
             {/* right-column */}
             <div className="about-right">
-                <img src={myimage} alt="" />
+                <img src={myimage} alt="img" />
             </div>
         </div>
         {/* =========== thirdRow ======== */}
         <div className="thirdRow">
 <h1>Skills</h1>
-<p>I am a Frontend Web Developer with a strong understanding of HTML, CSS, Bootstrap, JavaScript, and React.js. I have built multiple CSS and JavaScript projects for practice during my learning journey and continue to improve my skills through real projects.</p>
+<p>I am a Frontend Web Developer with a strong understanding of HTML, CSS, Bootstrap, JavaScript,  ReactJs, nextJs and typescript. I have built multiple CSS and JavaScript projects for practice during my learning journey and continue to improve my skills through real projects.</p>
         </div>
         {/* =========== fourthRow ======== */}
         <div className="fourthRow">
@@ -71,6 +74,16 @@ const About = ()=>{
             <h3>ReactJs</h3>
             <p>Gaining hands-on experience with React fundamentals, including components, props, and state management. Currently learning advanced concepts to strengthen my frontend development skills.</p>
             <ProgressBar now={90} label='80%' />
+          </div>
+          {/* ======= card nextJs ===== */}
+          <div className="card">
+            <h3>NextJs</h3>
+<p>Developing hands-on expertise in Next.js, focusing on efficient routing and modern data-fetching techniques. Active in mastering advanced performance optimization and server-side rendering to elevate my frontend skillset.</p>            <ProgressBar now={90} label='80%' />
+          </div>
+          {/* ======= card typescript ===== */}
+          <div className="card">
+            <h3>Typescript</h3>
+<p>Gaining hands-on experience with TypeScript core concepts, including strict type-checking, interfaces, and union/intersection types. Currently mastering advanced features such as generics, conditional types, and type guards to build scalable, error-resistant applications</p>            <ProgressBar now={90} label='80%' />
           </div>
             {/* ======= card bootstrap ===== */}
           <div className="card">
