@@ -13,9 +13,9 @@ const Home = ()=>{
         <div className="homeContainer">
             {/* left-column */}
            <div className="home-left"> <h1>Hello, I'm Azizullah
-Frontend Web Developer</h1>
+MERN Stack Web Developer</h1>
 
-<p>I’m a Frontend Website Developer passionate about creating clean, responsive, and user-friendly web experiences. I love turning ideas into interactive, modern, and visually appealing websites using HTML, CSS, JavaScript, and modern frameworks.</p>
+<p>I’m a MERN Stack Developer passionate about turning ideas into clean, responsive, and user-friendly web applications from frontend UI to backend APIs.</p>
 
 <div className="buttondiv">
     <button onClick={()=>navigateToCss("/jsProjects")}>View My Work</button>

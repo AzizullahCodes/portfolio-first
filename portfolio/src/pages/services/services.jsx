@@ -6,6 +6,17 @@ import { FaCode, FaObjectGroup, FaTools } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { GrReactjs } from "react-icons/gr";
 import { BsBootstrap } from "react-icons/bs";
+// import { FaNodeJs } from "react-icons/fa6";
+// import { TbBrandMongodb } from "react-icons/tb";
+// import { SiPostgresql } from "react-icons/si";
+// // new icons here 
+// import { FaHtml5 } from "react-icons/fa";
+// import { FaCss3 } from "react-icons/fa";
+// import { FaBootstrap } from "react-icons/fa";
+// import { IoLogoJavascript } from "react-icons/io";
+// import { RiReactjsFill } from "react-icons/ri";
+// import { RiNextjsFill } from "react-icons/ri";
+// import { SiExpress } from "react-icons/si";
 
 const Services = () => {
   return (
