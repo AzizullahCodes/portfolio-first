@@ -38,7 +38,7 @@ const About = () => {
               user-friendly applications from frontend interfaces to backend
               APIs using MongoDB, Express, React, Node.js, Next.js, and
               TypeScript. I love solving complex problems through code and am
-              currently open to new projects, internships, and full-time
+              currently open to new projects, internships, and full-time/part time
               positions.
             </p>
 
