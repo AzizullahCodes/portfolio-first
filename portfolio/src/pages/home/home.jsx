@@ -15,7 +15,7 @@ const Home = ()=>{
            <div className="home-left"> <h1>Hello, I'm Azizullah
 MERN Stack Web Developer</h1>
 
-<p>I’m a MERN Stack Developer passionate about turning ideas into clean, responsive, and user-friendly web applications from frontend UI to backend APIs.</p>
+<p>I am a MERN Stack Developer passionate about turning ideas into clean, responsive, and user-friendly web applications from frontend UI to backend APIs.</p>
 
 <div className="buttondiv">
     <button onClick={()=>navigateToCss("/jsProjects")}>View My Work</button>
