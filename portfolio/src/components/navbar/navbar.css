@@ -1,26 +1,181 @@
-/* Target all navbar links inside #navbar */
-#navbar {
-  position: sticky;
-  top: 0;  
-   z-index: 1000; 
-}
-#navbar .nav-link {
-  color: #dee2e6 !important;            /* default color for all non-active links */
-  transition: color 0.3s ease;      /* smooth hover/active transition */
+/* ==========================================================================
+   CUSTOM NAVBAR STYLING
+   ========================================================================== */
+
+.custom-navbar {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1050;
+  padding: 18px 0;
+  background: transparent;
+  transition: all 0.35s ease;
 }
 
-/* Active page link */
-#navbar .nav-link.active {
-  color: blue !important;         /* color for current page */
+.scrolled-navbar {
+  background: rgba(11, 17, 30, 0.88) !important;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.6);
 }
 
-/* Hover effect for desktop */
-#navbar .nav-link:hover {
-  color: #0d6efd !important;          /* hover color */
+/* Brand Logo */
+.navbar-brand-logo {
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  transition: transform 0.25s ease;
 }
 
-#navbar {
-  position: sticky;
-  top:0;
-  /* z-index: 1100; */
+.navbar-brand-logo:hover {
+  transform: scale(1.03);
+}
+
+.brand-bracket {
+  color: #38bdf8;
+  font-weight: 800;
+}
+
+.brand-name {
+  background: linear-gradient(135deg, #ffffff 0%, #cbd5e1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.brand-slash {
+  color: #818cf8;
+  font-weight: 800;
+}
+
+/* Nav Links */
+.nav-link-custom {
+  position: relative;
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin: 0 3px;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+  display: inline-block;
+}
+
+.nav-link-custom:hover {
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.08);
+}
+
+.nav-link-custom.active {
+  color: #38bdf8;
+  font-weight: 600;
+  background: rgba(56, 189, 248, 0.12);
+}
+
+.nav-link-custom.active::after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 20%;
+  right: 20%;
+  height: 2px;
+  background: linear-gradient(90deg, #38bdf8, #818cf8);
+  border-radius: 2px;
+}
+
+/* Resume CTA Button */
+.navbar-resume-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-left: 12px;
+  padding: 8px 18px;
+  background: linear-gradient(135deg, rgba(56, 189, 248, 0.15) 0%, rgba(129, 140, 248, 0.15) 100%);
+  border: 1px solid rgba(56, 189, 248, 0.4);
+  color: #38bdf8;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  backdrop-filter: blur(8px);
+}
+
+.navbar-resume-btn:hover {
+  background: linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%);
+  color: #ffffff;
+  border-color: transparent;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(14, 165, 233, 0.4);
+}
+
+.resume-nav-icon {
+  font-size: 14px;
+}
+
+/* Custom Mobile Toggle Button */
+.custom-toggle {
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  background: rgba(18, 26, 43, 0.8) !important;
+  padding: 8px 10px !important;
+  border-radius: 8px !important;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.custom-toggle:focus {
+  box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.4) !important;
+}
+
+.toggle-icon-bar {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #f1f5f9;
+  border-radius: 2px;
+  transition: all 0.25s ease;
+}
+
+/* Mobile responsive navigation styles */
+@media (max-width: 991px) {
+  .custom-navbar {
+    background: rgba(11, 17, 30, 0.96) !important;
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 12px 0;
+  }
+
+  .navbar-collapse {
+    background: rgba(15, 23, 42, 0.98);
+    border-radius: 16px;
+    padding: 18px;
+    margin-top: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  .nav-link-custom {
+    display: block;
+    padding: 12px 16px;
+    margin: 4px 0;
+    width: 100%;
+  }
+
+  .navbar-resume-btn {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+    padding: 12px;
+  }
 }

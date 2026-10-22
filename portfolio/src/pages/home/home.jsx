@@ -1,58 +1,149 @@
 // home.jsx
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
-import myimage from '../../assets/images/profileImages/myimage.png';
-import './home.css'
-const Home = ()=>{
-  // navigation variable 
-  const navigate = useNavigate();
-  const navigateToCss = useNavigate();
-    return(
-       <section className="home">
-        <div className="homeContainer">
-            {/* left-column */}
-           <div className="home-left"> <h1>Hello, I'm Azizullah
-MERN Stack Web Developer</h1>
+import "./home.css";
+import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp, FaArrowDown, FaFilePdf, FaCodeBranch } from "react-icons/fa";
+import myimage from "../../assets/images/profileImages/myimage.png";
 
-<p>I am a MERN Stack Developer passionate about turning ideas into clean, responsive, and user-friendly web applications from frontend UI to backend APIs.</p>
+const Home = () => {
+  const scrollTo = (sectionId) => {
+    const el = document.getElementById(sectionId);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
-<div className="buttondiv">
-    <button onClick={()=>navigateToCss("/jsProjects")}>View My Work</button>
-    {/* <button>Get In Touch</button> */}
- 
-        <button onClick={()=>navigate("/contact")}>Get In Touch</button>
-      
+  return (
+    <section id="home" className="hero-section">
+      {/* Background Glow Orbs */}
+      <div className="hero-glow-orb hero-orb-1"></div>
+      <div className="hero-glow-orb hero-orb-2"></div>
 
-    {/* <Link to="/contact">
-        <button>Get In Touch</button>
-      </Link> */}
-</div>
-<div className="home-icon">
- <div className="home-icon-subdiv"><a href="https://github.com/azizullahcodes" target="_blank" rel="github">
-              <FaGithub className="icon" />
-            </a></div>
-            
-            <div className="home-icon-subdiv"><a href="https://www.linkedin.com/in/azizullah-b8966835a" target="_blank" rel="linkdin">
-              <FaLinkedin className="icon" />
-            </a></div>
-            
+      <div className="hero-container">
+        
+        {/* Left Column: Text & CTAs */}
+        <div className="hero-content">
+          
+          {/* Live Status Pill */}
+          <div className="status-pill">
+            <span className="status-dot"></span>
+            <span>Available for Opportunities & Full-Stack Projects</span>
+          </div>
 
-            <div className="home-icon-subdiv"><a href="mailto:azizullahcodes@gmail.com?subject=Let's%20Work%20Together&body=Hi%20Azizullah%2C%20I%20found%20your%20portfolio%20interesting." rel='emial'>
-              <FaEnvelope className="icon" />
-            </a></div>
-           
-           <div className="home-icon-subdiv"> <a href="https://wa.me/923347257178" target="_blank" rel="whatsapp">
-              <FaWhatsapp className="icon" />
-            </a></div>
-</div></div>
-            {/* right-column */}
-            <div className="home-right">
-                <img src={myimage} alt="" />
+          <h1 className="hero-title">
+            Hi, I'm <span className="gradient-highlight">Azizullah</span>
+            <br />
+            <span className="hero-role">MERN Stack Web Developer</span>
+          </h1>
+
+          <p className="hero-description">
+            I craft clean, high-performance, and responsive web applications from 
+            intuitive frontend interfaces to secure and scalable backend APIs using 
+            <strong> MongoDB, Express, React, Node.js</strong>, and modern JavaScript architectures.
+          </p>
+
+          {/* Action Buttons */}
+          <div className="hero-actions">
+            <button
+              onClick={() => scrollTo("projects")}
+              className="btn-hero-primary"
+            >
+              <span>Explore My Work</span>
+              <FaArrowDown className="btn-action-icon" />
+            </button>
+
+            {/* Direct Open Resume Link */}
+            <a
+              href="/azizullahResume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-hero-resume"
+              title="Open Resume in New Tab"
+            >
+              <FaFilePdf className="btn-action-icon" />
+              <span>View Resume</span>
+            </a>
+
+            <button
+              onClick={() => scrollTo("contact")}
+              className="btn-hero-secondary"
+            >
+              Get In Touch
+            </button>
+          </div>
+
+          {/* Social Links */}
+          <div className="hero-social-strip">
+            <span className="social-label">Connect with me:</span>
+            <div className="social-icons">
+              <a
+                href="https://github.com/azizullahcodes"
+                target="_blank"
+                rel="noreferrer"
+                className="social-link"
+                title="GitHub Profile"
+              >
+                <FaGithub />
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/azizullah-b8966835a"
+                target="_blank"
+                rel="noreferrer"
+                className="social-link"
+                title="LinkedIn Profile"
+              >
+                <FaLinkedin />
+              </a>
+
+              <a
+                href="mailto:azizullahcodes@gmail.com?subject=Let's%20Work%20Together&body=Hi%20Azizullah%2C%20I%20found%20your%20portfolio%20interesting."
+                className="social-link"
+                title="Send Email"
+              >
+                <FaEnvelope />
+              </a>
+
+              <a
+                href="https://wa.me/923347257178"
+                target="_blank"
+                rel="noreferrer"
+                className="social-link"
+                title="Chat on WhatsApp"
+              >
+                <FaWhatsapp />
+              </a>
             </div>
+          </div>
+
         </div>
 
-       </section>
-    )
-}
+        {/* Right Column: Animated Profile Visual */}
+        <div className="hero-visual">
+          <div className="avatar-frame">
+            <div className="avatar-gradient-ring"></div>
+            <div className="avatar-glow"></div>
+            <img
+              src={myimage}
+              alt="Azizullah MERN Stack Developer"
+              className="avatar-image"
+            />
+
+            {/* Floating Info Badges */}
+            <div className="floating-badge badge-top-right">
+              <span className="badge-bullet">⚡</span>
+              <span>Fast & Modern UI</span>
+            </div>
+
+            <div className="floating-badge badge-bottom-left">
+              <FaCodeBranch className="badge-icon-cyan" />
+              <span>Full-Stack MERN</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
 export default Home;
